@@ -1,9 +1,16 @@
 # TestKart
- 
- Un juego kart sencillo con un script de movimiento simple, tiene unos checkpoints que le agregan tiempo al reloj, unos emptys que pueden ser boots de velocidad o un obstaculo se escoge random y un cambio de skin tambien bastante simple.
 
- El juego guarda datos del juego como cantidad de carreras terminadas y tu mejor tiempo, como tambien datos del jugador como la ultima skin que jugaste, todo esto en un archivo binario.
+## A simple Mario Kart's clone developed for a college test during my bachelor's studies.
 
- Decidi usar el movimiento simple por el tiempo y por mi poca experiencia programando un script mas complejo.
+The game is using a simple movement because, for the limited time, I prefered to have other mechanics finished.
+It has mechanics as little checkpoints that if you touch them you add time to your time available, an object that can be a speed boost for you or a trap (choosing random when you touch it).
+Also contains a simple skin selection pre-game.
 
- Luis Ricardo Azuara Maldonado
+Tha game save data in a file using binary encryption, saving data as:
++ Number of races finished.
++ Best time
++ Last Skin Selected.
+
+## Instructions
++ Clone repository
++ Open project with Unity Engine
